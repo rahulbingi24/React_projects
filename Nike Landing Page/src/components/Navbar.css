@@ -1,0 +1,37 @@
+:root {
+    --red: #d81c28;
+    --gray: #2e2e2e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    all: unset;
+    padding: 6px 16px;
+    background: var(--red);
+    height: 32px ;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+nav {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin:0 auto;
+    height: 72px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    cursor: pointer;
+}
