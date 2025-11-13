@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    /* background-color: lightblue; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 72px;
+    max-width: 1480px;
+    align-items: center;
+}
+
+ul {
+    font-size: larger;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    cursor: pointer;
+}

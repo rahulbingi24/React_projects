@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    position: absolute;
+    top: 143px;
+    left: 188px;
+}
+
+p {
+    max-width: 975px;
+    font-size: 16px;
+    
+    position: absolute;
+    top: 220px;
+    left: 188px;
+}
